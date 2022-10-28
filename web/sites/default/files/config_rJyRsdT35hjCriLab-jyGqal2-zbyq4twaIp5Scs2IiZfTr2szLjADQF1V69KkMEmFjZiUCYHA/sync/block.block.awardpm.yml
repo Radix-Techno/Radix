@@ -1,0 +1,30 @@
+uuid: 634fbcc0-ef2c-4d27-95a9-e7b04d10a9c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c9974861-3a79-4f8f-a769-e4cf7b0a88ee'
+  module:
+    - block_content
+    - system
+  theme:
+    - business_responsive_theme
+id: awardpm
+theme: business_responsive_theme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:c9974861-3a79-4f8f-a769-e4cf7b0a88ee'
+settings:
+  id: 'block_content:c9974861-3a79-4f8f-a769-e4cf7b0a88ee'
+  label: AwardPm
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news

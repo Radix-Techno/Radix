@@ -1,0 +1,30 @@
+uuid: 88cfc5fe-bd90-49b6-92b8-1014d1e953f9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:233df722-e087-47f9-86db-b4b0909dd186'
+  module:
+    - block_content
+    - system
+  theme:
+    - business_responsive_theme
+id: trustedby
+theme: business_responsive_theme
+region: middle_third
+weight: 0
+provider: null
+plugin: 'block_content:233df722-e087-47f9-86db-b4b0909dd186'
+settings:
+  id: 'block_content:233df722-e087-47f9-86db-b4b0909dd186'
+  label: 'Trusted by'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

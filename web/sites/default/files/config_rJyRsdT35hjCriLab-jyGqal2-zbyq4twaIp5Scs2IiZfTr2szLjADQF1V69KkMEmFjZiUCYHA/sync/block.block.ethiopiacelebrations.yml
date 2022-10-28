@@ -1,0 +1,30 @@
+uuid: 567df47c-1272-4f42-baf0-5b1ae52a6535
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b2c169f0-4110-486c-9707-2967269ce064'
+  module:
+    - block_content
+    - system
+  theme:
+    - business_responsive_theme
+id: ethiopiacelebrations
+theme: business_responsive_theme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:b2c169f0-4110-486c-9707-2967269ce064'
+settings:
+  id: 'block_content:b2c169f0-4110-486c-9707-2967269ce064'
+  label: ethiopiacelebrations
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news

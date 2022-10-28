@@ -1,0 +1,30 @@
+uuid: 38a26bcc-f7f8-4d19-b020-4da81f096c13
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f370e9a6-7962-4627-b4c3-e83a61c823e4'
+  module:
+    - block_content
+    - system
+  theme:
+    - business_responsive_theme
+id: office
+theme: business_responsive_theme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:f370e9a6-7962-4627-b4c3-e83a61c823e4'
+settings:
+  id: 'block_content:f370e9a6-7962-4627-b4c3-e83a61c823e4'
+  label: Office
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news
