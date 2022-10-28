@@ -1,0 +1,28 @@
+_core:
+  default_config_hash: BQrJhDu4l5i3ig5PxmuSLYns9Lkt7Ipjf6hcOhKqQ9A
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+linkedin_url: 'http://www.linkedin.com/company/radixtechno'
+copyright_text: 'Copyright 2022. All rights reserved'
+show_social_icon: 1
+show_credit_link: 1
+show_slideshow: 1
+no_of_slides: 3
+slide_title_1: 'Renewable Energy'
+slide_description_1: 'We have successfully installed 500 MW of power at some of the remote locations globally.'
+slide_url_1: '#'
+slide_image_path_1: /images/slider/slide1.jpg
+slide_title_2: 'Best web design & development agency'
+slide_description_2: 'We have designed and developed one of the best web sites.'
+slide_url_2: '#'
+slide_image_path_2: /images/slider/slide2.jpg
+slide_title_3: 'Research works'
+slide_description_3: 'Time and again we have delivered new technologies to the market.'
+slide_url_3: '#'
+slide_image_path_3: /images/slider/slide3.jpg

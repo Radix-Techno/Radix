@@ -1,0 +1,25 @@
+uuid: 50962c86-25b2-44de-9048-3da3478d31a0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7f8749dc-7f37-4c28-b939-d98b182b866e'
+  module:
+    - block_content
+  theme:
+    - business_responsive_theme
+id: ouroffices
+theme: business_responsive_theme
+region: footer_menu
+weight: 0
+provider: null
+plugin: 'block_content:7f8749dc-7f37-4c28-b939-d98b182b866e'
+settings:
+  id: 'block_content:7f8749dc-7f37-4c28-b939-d98b182b866e'
+  label: 'Our offices'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

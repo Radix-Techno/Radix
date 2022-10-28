@@ -1,0 +1,49 @@
+# Default settings are not located here. Theme settings in general are handled
+# strictly by this base theme via the @BootstrapSetting annotation discovery
+# process. This is to help sub-theme's inherit its settings properly and
+# determine when a setting should be saved to config as "overridden".
+#
+# @see \Drupal\bootstrap\Plugin\SettingBase
+# @see \Drupal\bootstrap\Plugin\SettingInterface
+# @see \Drupal\bootstrap\Plugin\SettingManager
+# @see \Drupal\bootstrap\Plugin\Form\SystemThemeSettings
+
+# Default features.
+features:
+   comment_user_picture: true
+   comment_user_verification: true
+   favicon: true
+   logo: true
+   name: true
+   node_user_picture: true
+   slogan: true
+#facebook_url: 'https://www.facebook.com/radixtechno'
+#twitter_url: 'https://twitter.com/zymphonies'
+#google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
+linkedin_url: 'http://www.linkedin.com/company/radix-techno'
+#pinterest_url: 'https://www.pinterest.com/zymphonies'
+#rss_url: 'rss.xml'
+copyright_text: 'Copyright 2022. All rights reserved'
+
+show_social_icon: 1
+show_credit_link: 1
+show_slideshow: 1
+
+#Slider Default Values
+no_of_slides: 3
+
+#Slider Default Images & Description
+slide_title_1: 'Renewable Energy'
+slide_description_1: 'We have successfully installed 500 MW of power at some of the remote locations globally.' 
+slide_url_1: '#'
+slide_image_path_1: '/images/slider/slide1.jpg'
+
+slide_title_2: 'Best web design & development agency'
+slide_description_2: 'We have designed and developed one of the best web sites.' 
+slide_url_2: '#'
+slide_image_path_2: '/images/slider/slide2.jpg'
+
+slide_title_3: 'Research works'
+slide_description_3: 'Time and again we have delivered new technologies to the market.' 
+slide_url_3: '#'
+slide_image_path_3: '/images/slider/slide3.jpg'

@@ -1,0 +1,30 @@
+uuid: fca987ec-0f87-4f7b-ab23-c61eda630488
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c2f04000-f318-4e84-a12b-597a59d9144e'
+  module:
+    - block_content
+    - system
+  theme:
+    - business_responsive_theme
+id: chip
+theme: business_responsive_theme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:c2f04000-f318-4e84-a12b-597a59d9144e'
+settings:
+  id: 'block_content:c2f04000-f318-4e84-a12b-597a59d9144e'
+  label: Chip
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news

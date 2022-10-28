@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions for the radix contact form module.
+ */
+
+function radix_contact_schema() {
+  $schema['radix_contact'] = [
+    'description' => 'Stores entries from the radix contact form.',
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier for each item',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'fname' => [
+        'description' => 'Customer Full Name',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'mail' => [
+        'description' => 'Customer Email',
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'service_related' => [
+        'description' => 'Related Service',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'message' => [
+        'description' => 'Your Message',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],     
+    ],
+    'primary key' => [
+      'id',
+    ],
+  ];
+  return $schema;
+}

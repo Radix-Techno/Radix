@@ -1,0 +1,24 @@
+radix_contact.contactus:
+  path: '/services'
+  defaults:
+    _title: 'Contact US'
+    _form: '\Drupal\radix_contact\Form\ContactUsForm'
+  requirements:
+    _access: 'TRUE'   
+    
+radix_contact.edit_contactform:
+  path: '/admin/structure/radix_contact/radix_contact/edit/{id}'
+  defaults:
+    _title: 'Edit Contact Form'
+    _form: '\Drupal\radix_contact\Form\ContactUsForm'
+  requirements:
+    _permission: 'administer radix'
+    
+radix_contact.delete_contactform:
+  path: '/admin/structure/radix_contact/radix_contact/delete/{cid}'
+  defaults:
+    _controller: '\Drupal\radix_contact\Controller\RadixContactController::deletecontactus'
+    _form: '\Drupal\radix_contact\Form\ContactUsDeleteForm'
+    _title: 'Delete Form'
+  requirements:
+    _permission: 'administer radix'
